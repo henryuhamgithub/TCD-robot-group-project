@@ -1,0 +1,230 @@
+/*
+Description:  theme for Classes
+Author:       J Neathawk
+Author URI:   https://knighthawk0811.github.io
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+
+
+/*--------------------------------------------------------------
+selector {
+	layout(position)
+	
+	content(text)
+	
+	design(background)
+	
+	other(z-index)
+}
+----------------------------------------------------------------
+>>> COLORS:	  
+----------------------------------------------------------------
+:root {
+  --color-variable: #ffffff;
+}
+
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Universal
+# General Elements
+# Modal Navigation
+# Navigation
+# Header Area
+# Content Area
+# Footer Area
+# Reusable Classes
+# Other
+# Templates
+# Media Queries
+
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Universal
+--------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+    font-family: monospace, arial;
+ }
+ * {
+    box-sizing: inherit;
+    font-family: inherit;
+  }
+  svg {
+    width: 100%;
+    margin-bottom: 0%;    
+  }
+  /*--------------------------------------------------------------
+  # General Elements
+  --------------------------------------------------------------*/
+
+.photobox {
+  border-style: solid;
+  border-width: 8px;
+  border-color: #0f0f0f;
+  border-radius: 25px;
+  color: black;
+  text-align: center;
+  background-color: #6c6d75;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  width: 600px;
+}
+
+  .videobox {
+    border-style: solid;
+    border-width: 8px;
+    border-color: #0f0f0f;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    background-color: #6c6d75;
+    height: 400px;
+    margin: auto;
+    margin-top: -100px;
+    position: relative;
+    width: 600px;
+  }
+
+  div.curved {
+    background-color: rgba(83,86,95,1);
+    margin-bottom: -5px;
+    background: linear-gradient(180deg, rgba(100,102,113,1) 0%, rgba(83,86,95,1) 90%);
+  }
+
+  body{
+    background-color: #0f0f0f;
+    margin: 0;
+  }
+  
+  .striped {
+    border-right: 20px solid #c98609e0;
+    width: 60px;
+    border-left: 20px solid #7e0303ea;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 30px;
+    z-index: -2;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .striped.second {
+    border-left: 20px solid #c98609e0;
+    border-right: 20px solid #7e0303ea;
+    left: unset;
+    right: 30px;
+  }
+
+  /*--------------------------------------------------------------
+  # Navigation
+  --------------------------------------------------------------*/
+  
+  /*--------------------------------------------------------------
+  # Header Area
+  --------------------------------------------------------------*/
+  header {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  header a {
+    text-decoration: none;
+    color: #d9dce0;
+  }
+  header a:visited {
+    color: #d9dce0;
+  }
+  header a:hover {
+    color: white;
+  }
+  header a:active {
+    color: white;
+  }
+  /*--------------------------------------------------------------
+  # Content Area
+  --------------------------------------------------------------*/
+  
+  video {
+    margin: auto;
+    position: relative;
+    margin-top: 24px;
+    color: rgb(240, 240, 240);
+  }
+
+  p {
+    color: #d9dce0;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width: 45%;
+  }
+
+  h1.title {
+    padding-top: 45px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    font-size: 50px;
+  }
+  
+  h2 {
+    color: #d9dce0;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    width: 45%;
+  }
+
+  /*--------------------------------------------------------------
+  # Footer Area
+  --------------------------------------------------------------*/
+  
+footer {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+  /*--------------------------------------------------------------
+  # Reusable Classes
+  --------------------------------------------------------------*/
+  
+  img.imglogo {
+    color: #d9dce0;
+    margin: auto;
+    position: relative;
+  }
+  
+  img.imgblack {
+    color: rgb(240, 240, 240);
+    margin: auto;
+    position: relative;
+    margin-top: 160px;
+  }
+
+  
+  /*--------------------------------------------------------------
+  # Other
+  --------------------------------------------------------------*/
+  
+  
+  /*--------------------------------------------------------------
+  # Templates
+  --------------------------------------------------------------*/
+  
+  
+  /*--------------------------------------------------------------
+  # Media Queries
+  --------------------------------------------------------------*/
