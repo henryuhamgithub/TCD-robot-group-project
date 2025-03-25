@@ -113,9 +113,6 @@ html {
     bottom: 0px;
     left: 30px;
     z-index: -2;
-    border-bottom-width: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
   }
 
   .striped.second {
