@@ -74,6 +74,7 @@ html {
   background-color: #6c6d75;
   height: 400px;
   margin: auto;
+  position: relative;
   width: 600px;
 }
 
@@ -88,6 +89,7 @@ html {
     height: 400px;
     margin: auto;
     margin-top: -100px;
+    position: relative;
     width: 600px;
   }
 
@@ -130,18 +132,22 @@ html {
   header {
     text-align: center;
     font-size: 30px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 10px 15%;
   }
   header a {
     text-decoration: none;
-    color: #d9dce0;
+    color: #bcbec0;
+    background-color:#3f3f44;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0.3em;
   }
   header a:visited {
     color: #d9dce0;
   }
   header a:hover {
     color: white;
+    background-color:#55555c;
   }
   header a:active {
     color: white;
