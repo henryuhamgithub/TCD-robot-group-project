@@ -74,7 +74,6 @@ html {
   background-color: #6c6d75;
   height: 400px;
   margin: auto;
-  position: relative;
   width: 600px;
 }
 
@@ -89,7 +88,6 @@ html {
     height: 400px;
     margin: auto;
     margin-top: -100px;
-    position: relative;
     width: 600px;
   }
 
