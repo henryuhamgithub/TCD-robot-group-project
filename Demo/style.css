@@ -94,9 +94,9 @@ html {
   }
 
   div.curved {
-    background-color: rgba(83,86,95,1);
+    background-color: #393944;
     margin-bottom: -5px;
-    background: linear-gradient(180deg, rgba(100,102,113,1) 0%, rgba(83,86,95,1) 90%);
+    background: linear-gradient(0deg, rgba(57,57,68,1) 1%, rgba(59,59,71,1) 25%, rgba(80,80,96,1) 100%);
   }
 
   body{
@@ -105,9 +105,9 @@ html {
   }
   
   .striped {
-    border-right: 20px solid #c98609e0;
+    border-right: 20px solid #a53400;
     width: 60px;
-    border-left: 20px solid #7e0303ea;
+    border-left: 20px solid #8f0000;
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -116,8 +116,8 @@ html {
   }
 
   .striped.second {
-    border-left: 20px solid #c98609e0;
-    border-right: 20px solid #7e0303ea;
+    border-left: 20px solid #a53400;
+    border-right: 20px solid #8f0000;
     left: unset;
     right: 30px;
   }
@@ -136,8 +136,8 @@ html {
   }
   header a {
     text-decoration: none;
-    color: #bcbec0;
-    background-color:#3f3f44;
+    color: #d0d3d6;
+    background-color:#505060;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0.3em;
@@ -147,10 +147,11 @@ html {
   }
   header a:hover {
     color: white;
-    background-color:#55555c;
+    background-color:#6b6b80;
   }
   header a:active {
     color: white;
+    background-color: #31313b;
   }
   /*--------------------------------------------------------------
   # Content Area
