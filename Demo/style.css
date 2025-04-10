@@ -167,6 +167,7 @@ html {
     padding-right: 10px;
     border-radius: 0.3em;
     white-space: nowrap;
+    font-family: 'Orbitron', monospace, ariel;
   }
   header nav a.top_buttons:visited {
     color: #d9dce0;
@@ -206,7 +207,6 @@ html {
     width: 80%;
     white-space: nowrap;
     list-style-position: inside;
-    font-family: 'Orbitron', monospace, ariel;
   }
 
   h1.title {
