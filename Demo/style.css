@@ -50,7 +50,7 @@ selector {
 --------------------------------------------------------------*/
 html {
     box-sizing: border-box;
-    font-family: monospace, arial;
+    font-family: 'Orbitron', monospace, arial;
  }
  * {
     box-sizing: inherit;
