@@ -218,6 +218,7 @@ html {
     color: rgb(240, 240, 240);
     font-size: 100px;
     font-family: 'Orbitron', monospace, ariel;
+    font-weight: 900;
   }
   
   h2 {
@@ -227,6 +228,7 @@ html {
     text-align: center;
     width: 45%;
     font-family: 'Orbitron', monospace, ariel;
+    font-weight: 700;
   }
 
   /*--------------------------------------------------------------
