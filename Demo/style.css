@@ -206,6 +206,7 @@ html {
     width: 80%;
     white-space: nowrap;
     list-style-position: inside;
+    font-family: 'Orbitron', monospace, ariel;
   }
 
   h1.title {
@@ -215,7 +216,7 @@ html {
     text-align: center;
     color: rgb(240, 240, 240);
     font-size: 100px;
-    font-family: 'Orbitron', monospace, ariel
+    font-family: 'Orbitron', monospace, ariel;
   }
   
   h2 {
@@ -224,7 +225,7 @@ html {
     margin: auto;
     text-align: center;
     width: 45%;
-    font-family: 'Orbitron', monospace, ariel
+    font-family: 'Orbitron', monospace, ariel;
   }
 
   /*--------------------------------------------------------------
