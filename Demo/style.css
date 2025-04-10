@@ -67,16 +67,25 @@ html {
 .photobox {
   border-style: solid;
   border-width: 8px;
-  border-color: #0f0f0f;
+  border-color: #6c6d75;
   border-radius: 25px;
   color: black;
   text-align: center;
   background-color: #6c6d75;
   height: 400px;
   margin: auto;
+  margin-top: 1em;
   position: relative;
-  width: 600px;
+  width: 500px;
+  overflow: hidden;
+  
 }
+
+.photobox img {
+  height: 100%;
+  width: auto;
+}
+
 
   .videobox {
     border-style: solid;
@@ -130,26 +139,43 @@ html {
   # Header Area
   --------------------------------------------------------------*/
   header {
+    display: grid;
+    grid-template-columns: 200px auto;
     text-align: center;
     font-size: 30px;
-    padding: 10px 15%;
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 75%;
   }
-  header a {
+  header > a img {
+    display:block;
+  }
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  header nav a.top_buttons {
     text-decoration: none;
     color: #d0d3d6;
+    height: 50px;
+    line-height: 50px;
     background-color:#505060;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0.3em;
+    white-space: nowrap;
   }
-  header a:visited {
+  header nav a.top_buttons:visited {
     color: #d9dce0;
   }
-  header a:hover {
+  header nav a.top_buttons:hover {
     color: white;
     background-color:#6b6b80;
   }
-  header a:active {
+  header nav a.top_buttons:active {
     color: white;
     background-color: #31313b;
   }
@@ -172,13 +198,23 @@ html {
     width: 45%;
   }
 
+  ul {
+    color: #d9dce0;
+    font-size: 20px;
+    margin: auto 9%;
+    text-align: center;
+    width: 80%;
+    white-space: nowrap;
+    list-style-position: inside;
+  }
+
   h1.title {
     padding-top: 45px;
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: center;
     color: rgb(240, 240, 240);
-    font-size: 50px;
+    font-size: 100px;
   }
   
   h2 {
@@ -207,6 +243,10 @@ footer {
     color: #d9dce0;
     margin: auto;
     position: relative;
+    height: 50px;
+    width: auto;
+    padding: 0 0;
+
   }
   
   img.imgblack {
@@ -216,7 +256,13 @@ footer {
     margin-top: 160px;
   }
 
+  img.imglogo:hover {
+    filter:brightness(140%);
+  }
   
+  img.imglogo:active {
+    filter:contrast(150%);
+  }
   /*--------------------------------------------------------------
   # Other
   --------------------------------------------------------------*/
