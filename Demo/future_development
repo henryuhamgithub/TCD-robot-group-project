@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://henryuhamgithub.github.io/TCD-robot-group-project/Demo/index.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <title>Future_Development</title>
+</head>
+
+<body>
+  <div id="wrapper">
+  <div class="striped"> </div>
+  <div class="striped second"></div>
+  
+  <header>
+    <a href="index.html"><img class="imglogo" src="dante_robotics.png" alt="logo"></a>
+    <nav> 
+      <a class="top_buttons" href="https://www.factorio.com/" target="_blank" rel="nofollow">About&nbsp;Us&nbsp;/&nbsp;Contact Us</a>
+      <a class="top_buttons" href="features.html" rel="nofollow">Features</a>
+      <a class="top_buttons" href="specs.html" rel="nofollow">Specs</a>
+      <a class="top_buttons" href="https://www.factorio.com/" target="_blank" rel="nofollow">Future&nbsp;Development</a>
+    </nav>
+  </header>
+
+  <div class="curved">
+    <h1 class="title">Future Development</h1>
+  </div>
+  <div class="svg">
+    <svg width="500" height="175" viewBox="0 0 500 80" preserveAspectRatio="none">
+      <path d="M0,0 L0,40 Q250,80 500,40 L500,0 Z" fill="#393944"></path>
+    </svg>
+  </div>
+
+  <div class="photobox">
+    <img src="robot_img_5.jpg" alt="cool image">
+  </div>
+
+  <div class="textbox">
+    <br>
+    <h2>The Plan</h2>
+    <br>
+    <p> The future is looking bright for Phil as there are many advancements on the horizon. Just a few of these advancements include:</p>
+     <ul>
+      <li>Flight</li>
+      <li>Mitosis</li>
+      <li>Mind-controlability</li>
+      <li>Speeds upwards of mach 2.7</li>
+      <li>and much, much more!</li>
+    </ul>
+  </div>
+
+  <div class="photobox">
+    <img src="robot_img_6.jpg" alt="cool image">
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+</div>
+
+
+</body></html>
