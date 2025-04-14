@@ -304,23 +304,44 @@ footer {
 
 /* for-phone-only */
 @media only screen and (max-width: 599px) {
-	 p {
-    font-size: 35px;
+		 p {
+    font-size: 45px;
     width: 80%;
+  }
+		ul {
+    font-size: 45px;
+    width: 80%;
+  }
+		h2 {
+    font-size: 55px;
   }
 }
 /* for-tablet-portrait-up */
 @media only screen and (min-width: 600px) {
 		 p {
-    font-size: 30px;
+    font-size: 40px;
     width: 70%;
+  }
+	ul {
+    font-size: 40px;
+    width: 70%;
+  }
+		h2 {
+    font-size: 50px;
   }
 }
 /* for-tablet-portrait-only */
 @media only screen and (min-width: 600px) and (max-width: 899px) {
 		 p {
-    font-size: 30px;
+    font-size: 40px;
     width: 70%;
+  }
+		ul {
+    font-size: 40px;
+    width: 70%;
+  }
+		h2 {
+    font-size: 50px;
   }
 }
 /* for-tablet-landscape-up */
@@ -329,6 +350,13 @@ footer {
     font-size: 35px;
     width: 60%;
   }
+		ul {
+    font-size: 35px;
+    width: 60%;
+  }
+		h2 {
+    font-size: 45px;
+  }
 }
 /* for-tablet-landscape-only */
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
@@ -336,12 +364,26 @@ footer {
     font-size: 35px;
     width: 60%;
   }
+		ul {
+    font-size: 35px;
+    width: 60%;
+  }
+		h2 {
+    font-size: 45px;
+  }
 }
 /* for-desktop-up */
 @media only screen and (min-width: 1200px) {
 		 p {
     font-size: 30px;
     width: 60%;
+  }
+		ul {
+    font-size: 30px;
+    width: 60%;
+  }
+		h2 {
+    font-size: 40px;
   }
 }
 /* for-desktop-only */
@@ -353,5 +395,12 @@ footer {
 		 p {
     font-size: 30px;
     width: 60%;
+  }
+		ul {
+    font-size: 30px;
+    width: 60%;
+  }
+		h2 {
+    font-size: 40px;
   }
 }
