@@ -93,7 +93,7 @@ html {
   margin: auto;
   margin-top: 1em;
   position: relative;
-  width: 320px;
+  width: 300px;
   overflow: hidden;
   
 }
@@ -106,7 +106,12 @@ html {
 .photobox_2 img {
   height: 100%;
   width: auto;
-  margin: -10px;
+}
+
+.photobox_2.second img {
+  height: 100%;
+  width: auto;
+  margin-left: -25px;
 }
 
   .videobox {
