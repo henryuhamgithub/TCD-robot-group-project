@@ -212,11 +212,13 @@ fieldset.questionnaire {
     font-family: monospace, ariel;
     text-align: center;
     font-size: 28px;
+    padding-top: 20px;
   }
     #submission-fieldset {
         max-width: 140px;
         text-align: center;
 	margin: auto;
+	padding-top: 5px;
     }
 
   video {
