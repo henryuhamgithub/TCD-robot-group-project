@@ -216,6 +216,7 @@ fieldset.questionnaire {
     #submission-fieldset {
         max-width: 140px;
         text-align: center;
+	margin: auto;
     }
 
   video {
