@@ -83,6 +83,7 @@ html {
 
 .photobox.second {
   width: 300px;
+  margin-left: -10px;
 }
 
 .photobox img {
@@ -93,7 +94,7 @@ html {
 .photobox.second.SP img {
   height: 100%;
   width: auto;
-  margin-left: -50px;
+  margin-left: -65px;
 }
 
   .videobox {
