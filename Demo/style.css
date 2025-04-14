@@ -85,6 +85,10 @@ html {
   width: 300px;
 }
 
+.photobox.second.DM {
+  width: 280px;
+}
+
 .photobox img {
   height: 100%;
   width: auto;
