@@ -203,7 +203,21 @@ html {
   /*--------------------------------------------------------------
   # Content Area
   --------------------------------------------------------------*/
-  
+
+fieldset.questionnaire {
+    color: #d9dce0;
+    background-color: #31313b;
+    width: 50%;
+    margin: auto;
+    font-family: monospace, ariel;
+    text-align: center;
+    font-size: 28px;
+  }
+    #submission-fieldset {
+        max-width: 140px;
+        text-align: center;
+    }
+
   video {
     margin: auto;
     position: relative;
