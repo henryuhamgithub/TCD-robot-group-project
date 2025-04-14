@@ -81,21 +81,8 @@ html {
   
 }
 
-.photobox_2 {
-  border-style: solid;
-  border-width: 8px;
-  border-color: #6c6d75;
-  border-radius: 25px;
-  color: black;
-  text-align: center;
-  background-color: #6c6d75;
-  height: 400px;
-  margin: auto;
-  margin-top: 1em;
-  position: relative;
+.photobox.second {
   width: 300px;
-  overflow: hidden;
-  
 }
 
 .photobox img {
@@ -103,15 +90,10 @@ html {
   width: auto;
 }
 
-.photobox_2 img {
+.photobox.second.SP img {
   height: 100%;
   width: auto;
-}
-
-.photobox_2.second img {
-  height: 100%;
-  width: auto;
-  margin-left: -25px;
+  margin-left: -50px;
 }
 
   .videobox {
