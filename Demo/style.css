@@ -307,22 +307,22 @@ footer {
 /* for-tablet-landscape-up */
 @media only screen and (min-width: 900px) {
 		 p {
-    font-size: 25px;
-    width: 50%;
+    font-size: 35px;
+    width: 60%;
   }
 }
 /* for-tablet-landscape-only */
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
 		 p {
-    font-size: 25px;
-    width: 50%;
+    font-size: 35px;
+    width: 60%;
   }
 }
 /* for-desktop-up */
 @media only screen and (min-width: 1200px) {
 		 p {
-    font-size: 20px;
-    width: 45%;
+    font-size: 30px;
+    width: 60%;
   }
 }
 /* for-desktop-only */
