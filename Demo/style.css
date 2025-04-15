@@ -334,6 +334,7 @@ footer {
 @media only screen and (max-width: 899px) {
 		 p {
     font-size: 50px;
+	width: 75%;
   }
 		ul {
     font-size: 50px;
@@ -353,6 +354,7 @@ footer {
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
 		 p {
     font-size: 40px;
+	width: 60%;
   }
 		ul {
     font-size: 40px;
