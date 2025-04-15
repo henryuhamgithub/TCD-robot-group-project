@@ -243,6 +243,7 @@ fieldset.questionnaire {
     width: 80%;
     white-space: nowrap;
     list-style-position: inside;
+    padding: 0%;
   }
 
   h1.title {
