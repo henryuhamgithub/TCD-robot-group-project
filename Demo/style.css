@@ -211,7 +211,7 @@ fieldset.questionnaire {
     font-family: monospace, ariel;
     text-align: center;
     font-size: 28px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
     #submission-fieldset {
         max-width: 140px;
@@ -336,8 +336,9 @@ footer {
     width: 60%;
   }
 		ul {
-    font-size: 45px;
+    font-size: 50px;
     white-space: wrap;
+	width: 60%;
   }
 		h2 {
     font-size: 60px;
