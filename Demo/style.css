@@ -338,10 +338,16 @@ footer {
 		ul {
     font-size: 50px;
     white-space: wrap;
-	width: 60%;
+	width: 70%;
   }
 		h2 {
     font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+	ul {
+    white-space: wrap;
   }
 }
 
