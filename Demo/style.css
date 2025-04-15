@@ -238,7 +238,7 @@ fieldset.questionnaire {
   ul {
     color: #d9dce0;
     font-size: 20px;
-    margin: auto 9%;
+    margin: auto;
     text-align: center;
     width: 80%;
     white-space: nowrap;
@@ -333,12 +333,10 @@ footer {
 @media only screen and (max-width: 899px) {
 		 p {
     font-size: 50px;
-    width: 60%;
   }
 		ul {
     font-size: 50px;
     white-space: wrap;
-	width: 70%;
   }
 		h2 {
     font-size: 60px;
@@ -354,11 +352,9 @@ footer {
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
 		 p {
     font-size: 40px;
-    width: 60%;
   }
 		ul {
     font-size: 40px;
-    width: 70%;
   }
 		h2 {
     font-size: 50px;
@@ -368,7 +364,6 @@ footer {
 @media only screen and (min-width: 1200px) {
 		 p {
     font-size: 30px;
-    width: 50%;
   }
 		ul {
     font-size: 30px;
