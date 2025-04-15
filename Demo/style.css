@@ -331,45 +331,30 @@ footer {
   # Media Queries
   --------------------------------------------------------------*/
 
-/* for-phone-only */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 899px) {
 		 p {
-    font-size: 40px;
-    width: 70%;
-  }
-		ul {
-    font-size: 40px;
-    white-space: wrap;
-  }
-		h2 {
     font-size: 50px;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 899px) {
-		 p {
-    font-size: 40px;
     width: 60%;
   }
 		ul {
-    font-size: 40px;
+    font-size: 50px;
     white-space: wrap;
   }
 		h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
 		 p {
-    font-size: 35px;
+    font-size: 40px;
     width: 60%;
   }
 		ul {
-    font-size: 35px;
+    font-size: 40px;
   }
 		h2 {
-    font-size: 45px;
+    font-size: 50px;
   }
 }
 /* for-desktop-up */
